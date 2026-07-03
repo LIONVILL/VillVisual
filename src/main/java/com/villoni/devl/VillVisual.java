@@ -7,6 +7,8 @@ import com.villoni.devl.effect.*;
 import com.villoni.devl.listener.TriggerListener;
 import com.villoni.devl.registry.EffectRegistry;
 import com.villoni.devl.service.EffectService;
+import org.bstats.bukkit.Metrics;
+import org.bstats.charts.SimplePie;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -44,7 +46,18 @@ public final class VillVisual extends JavaPlugin {
             command.setExecutor(effectsCommand);
             command.setTabCompleter(effectsCommand);
         }
+
+        int pluginId = 32342;
+        Metrics metrics = new Metrics(this, pluginId);
+
+        metrics.addCustomChart(
+                new SimplePie("chart_id", () -> "My value")
+        );
+
+
     }
+
+
 
     @Override
     public void onDisable() {
