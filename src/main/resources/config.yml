@@ -9,15 +9,31 @@ rules:
           x: 0.5
           y: 0.5
           z: 0.5
-  - trigger: JOIN
+
+  # Комбо-эффекты. можно добавлять неограниченное кол-во типов эффектов на 1 ивент (тригер)
+  - trigger: CRAFT_ITEM
+    target: CRAFTING_TABLE
     effects:
+      - type: FLAME
+        amount: 50
+        speed: 0.05
+        offset:
+          x: 0.5
+          y: 0.5
+          z: 0.5
+
+      - type: FIREWORK
+        shape: STAR
+        flicker: true
+        trail: true
+        power: 1
+        colors:
+          - "FFD700"
+          - "FFFFFF"
+
       - type: TITLE
-        title: "<gold>Welcome!</gold>"
-        subtitle: "<yellow>Enjoy your stay</yellow>"
-        fadeIn: 10
-        stay: 40
-        fadeOut: 10
-      - type: SOUND
-        sound: ENTITY_PLAYER_LEVELUP
-        volume: 1.0
-        pitch: 1.0
+        title: "<gradient:gold:yellow>Первый верстак!</gradient>"
+        subtitle: "<white>Начало великого пути</white>"
+        fadeIn: 20
+        stay: 60
+        fadeOut: 20
