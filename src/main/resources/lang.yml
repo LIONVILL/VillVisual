@@ -1,0 +1,5 @@
+messages:
+  prefix: "<gray>[<gradient:gold:yellow>VisualEffects</gradient>]</gray> "
+  reload-success: "<green>Configuration and language files reloaded successfully!</green>"
+  no-permission: "<red>You do not have permission to execute this command.</red>"
+  unknown-command: "<red>Unknown sub-command. Use /visualeffects reload</red>"
