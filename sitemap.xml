@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://your-domain.example.com/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/guides/config/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/config/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/config/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/guides/effects/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/effects/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/effects/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/guides/targets/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/targets/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/targets/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/guides/triggers/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/triggers/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/triggers/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/ru/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/ru/guides/config/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/config/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/config/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/ru/guides/effects/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/effects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/effects/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/ru/guides/targets/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/targets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/targets/"/>
+    </url>
+    <url>
+        <loc>https://your-domain.example.com/ru/guides/triggers/</loc>
+        <lastmod>2026-07-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://your-domain.example.com/ru/guides/triggers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.example.com/guides/triggers/"/>
+    </url>
+</urlset>
