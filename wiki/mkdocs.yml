@@ -1,0 +1,77 @@
+site_name: Server Wiki
+site_url: https://your-domain.example.com
+site_description: Documentation for triggers, targets and effects
+site_author: Your Name
+
+repo_name: yourname/wiki
+repo_url: https://github.com/yourname/wiki
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: ru
+          name: Русский
+          build: true
+          nav_translations:
+            Home: Главная
+            Guides: Гайды
+            "config.yml": "config.yml"
+            Triggers: Триггеры
+            Targets: Таргеты
+            Effects: Эффекты
+
+nav:
+  - Home: index.md
+  - Guides:
+      - "config.yml": guides/config.md
+      - Triggers: guides/triggers.md
+      - Targets: guides/targets.md
+      - Effects: guides/effects.md
